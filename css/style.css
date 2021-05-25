@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 2000px;
+}
+/* Navbar */
+.navbar-brand {
+  color: white !important;
+}
+.navbar-brand.color-brand {
+  color: black !important;
+}
+
+/* Navbar End */
+/* Jumbotron */
+header .jumbotron {
+  background-image: url('../asset/bg.png') !important;
+  background-size: cover;
+  height: 800px;
+}
+.content p {
+  color: white;
+}
+.content h1 {
+  color: white;
+}
+.content .btn {
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+}
+/* Jumbotron End */
